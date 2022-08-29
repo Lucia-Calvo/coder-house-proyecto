@@ -177,8 +177,14 @@ ul.nav-items{
    justify-content: center;
    align-items: center;
    position: relative;
-   top: 20px;
+   top: 20px;  
 }
+
+#options :hover{
+    transition: all 1s ease;
+    transform: scale(2,2);   
+}
+
 
 #more-information{
     grid-area: more-information;
@@ -467,6 +473,7 @@ ul.nav-items{
         #options article{
             margin-bottom: 150px;
             font-size: 22px;
+            
          }
         #more-information{
             grid-area: more-information;
