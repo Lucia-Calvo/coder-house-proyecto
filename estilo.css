@@ -1,6 +1,78 @@
-.section-3{
+* {
+    font-style: 'Nunito Sans', sans-serif;
+}
+
+.section-1{
+    background-image: url(./imagenes/Background\ black.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    width: 100%;
+    height: 150vh;
+}
+
+.section-1 h1{
+    font-size: 60px;
+    color: white;
+    position: relative;
+    margin-top: 40%;
+    left: 30px;
+    text-align: right;
+}
+
+.section-1 article{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-align: right;
+    margin-top: 30px;
+    left: 20px;
+}
+
+.section-2{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position:relative;
+    bottom: 6vh;
+    height: 400px;
+}
+
+.section-2 div{
+    text-align: center;
+    width: 450px;
+    height: 280px;
+    background-color: #A0B2A6;
+    position: relative;
+    top: 40px;
+}
+
+.section-2 div h2{
+   padding: 20px;
+   font-size: 25px;
+}
+
+.section-3{
+    display: inline-block;
+    background-color: #9A7D4E;
+}
+.img{
+    position: relative;
+    bottom: 8vh;
+    left: 980px;
+}
+
+.section-3 article{
+    position: relative;
+    top: 20vh;
+}
+
+.section-3 article h2{
+    font-size: 25px;
+}
+
+.section-3 article p{
+    font-size: 15px;
 }
 
 .img-fluid{
