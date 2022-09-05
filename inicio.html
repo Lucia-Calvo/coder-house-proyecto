@@ -11,84 +11,79 @@
     <link rel="shortcut icon" href="./imagenes/Logo.png">
   </head>
 
-  <body>
 
-    <header class="text-bg-dark p-3">
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid text-bg-dark p-3">
-          <a class="navbar-brand text-white bg-dark" href="./index.html">
-            <img src="./imagenes/Logo.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top p-1">CALVO Y ASOCIADOS
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link text-white bg-dark" href="./index.html">Inicio</a>
-              <a class="nav-link text-white bg-dark" href="./pages/sobre-nosotros.html">Sobre Nosotros</a>
-              <a class="nav-link text-white bg-dark" href="./pages/servicios.html">Servicios</a>
-              <a class="nav-link text-white bg-dark" href="./pages/informes.html">Informes</a>
-              <a class="nav-link text-white bg-dark" href="./pages/contacto.html">Contacto</a>
-            </div>
+<body>
+  <div class="container">
+      <header class="row">
+          <!-- <div class="col">
+              <h3 class="header__h3">Calvo y Asociados</h3>
+              <img src="./imagenes/Logo.png" alt="logo" class="logo">
+          </div> -->
+          <div class="row">
+              <nav class="navbar navbar-expand-lg bg-light">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                      <img src="./imagenes/Logo.png" alt="logo" width="30" height="24" class="d-inline-block align-text-top">CALVO Y ASOCIADOS
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-link" href="./index.html">Inicio</a>
+                        <a class="nav-link" href="./pages/sobre-nosotros.html">Sobre Nosotros</a>
+                        <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        <a class="nav-link" href="./pages/informes.html">Informes</a>
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
           </div>
-        </div>
-      </nav>
-    </header>
+      </header>
+      <main class="row">
+          <section class="col">
+              <h1>Consultora Calvo y Asociados</h1>
+              <article>
+                  <p>Asesoramiento impositivo y gestión empresarial</p>
+                  <p>Solucionamos tus problemas</p> 
+              </article>
+          </section>
+          <section id="options">
+              <article>Impuestos</article>
+              <article>Tax planning</article>
+              <article>Auditorías</article>
+          </section>
+          <section id="more-information">
+              <article>
+                  <p>Consultora Calvo y asociados resuelve la experiencia completa del cliente en gestión empresarial. Ofreciendo distintos planes y asesoramiento personalizado con excelentes profesionales.</p>
+                  <form action="./pages/servicios.html">
+                      <input type="submit" value="Conocer más">
+                  </form>
+              </article>
+              <iframe class="video" src="https://www.youtube.com/embed/Sal8fC6B7Qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </section>
+      </main>
+      <footer class="row">
+          <ul class="footer__list">
+              <li><a href="https://api.whatsapp.com/send?phone=5493415894212" target="blank"><span class="icon-whatsapp"></span>(+54) 9 341 589 4212</a></li>
+              <li><a href="https://www.google.com/maps/place/Sta+Fe+1764,+S2000+AUB,+Santa+Fe/@-32.9433365,-60.6469886,17z/data=!3m1!4b1!4m5!3m4!1s0x95b7ab3e65fbc1cf:0x5887b8719b9945ed!8m2!3d-32.9433365!4d-60.6469886" target="_blank"><span class="icon-location"></span> Santa Fe 1764 7º A - Rosario</a></li>
+              <li><a href="mailto:rosendocalvo70@hotmail.com"><span class="icon-envelope"></span>Rosendocalvo70@hotmail.com</a></li>
+          </ul>
+          <p>Horario: Lunes a Viernes de 10:00 a 18:30 hs</p>
+          <div class="footer__container">
+              <p>Políticas de privacidad</p>
+              <p>Copyright Lucía Calvo. Reservados todos los derechos</p>
+              <p>Términos de uso</p>
+          </div>
+      </footer>
+  </div>
+</body>
 
-    <main class="container-fluid"> 
-       <section class="row section-1">
-         <div class="col-8 col-md-5 col-xl-5">
-           <h1>Calvo y Asociados</h1>
-           <article>
-             <p>Asesoramiento y gestión impositiva</p>
-             <p>Solucionamos tus problemas</p>
-          </article>
-         </div>
-       </section>
-       <section class="row section-2">
-        <div class="col-lg-4">
-          <h2 class="fw-normal">Impuestos</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati blanditiis recusandae officiis aspernatur sed error quasi nemo, harum iusto quis pariatur veritatis dolorum debitis similique dolorem alias? Laborum, esse vel?</p>
-          <p><a class="btn btn-secondary" href="#">Ver más »</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <h2 class="fw-normal">Tax planning</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium facilis qui obcaecati enim deleniti praesentium neque nobis quod reprehenderit voluptas accusamus doloribus odit, quas incidunt nesciunt maxime unde, eveniet at?</p>
-          <p><a class="btn btn-secondary" href="#">Ver más »</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">    
-          <h2 class="fw-normal">Auditorías</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit quisquam pariatur, aspernatur ea at hic quo harum voluptas esse culpa assumenda ipsa tenetur vel sint est facere? Architecto, voluptates vero.</p>
-          <p><a class="btn btn-secondary" href="#">Ver más »</a></p>
-        </div><!-- /.col-lg-4 -->
-       </section>
-       <section class="row featurette section-3">
-         <article class="col-12 col-md-6 col-xl-8">
-          <h2 class="featurette-heading fw-normal lh-1">Profesionalismo. Organización. <span class="text-muted">Resultados.</span></h2>
-          <p class="lead">Nuesta estrategia de negocios es proveer servicios que brinden seguridad, confianza y beneficios financieros. Para lograr esto, prestamos especial atención a las preferencias y necesidades de cada cliente de manera individual y personalizada. Consultora Calvo y asociados resuelve la experiencia completa del cliente en gestión empresarial. Ofreciendo distintos planes y asesoramiento personalizado con excelentes profesionales. </p>
-         </article>
-         <div class="col-12 col-md-6 col-xl-8 img">
-          <img src="./imagenes/Escritorio.jpeg" class="img-fluid" alt="Escritorio">
-         </div>
-       </section>
-    </main>
-
-    <footer class="py-3 my-4 footer">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3 footer__list">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Inicio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre Nosotros</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Servicios</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Informes</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contacto</a></li>
-      </ul>
-      <ul class="footer__list">
-                <li><a href="https://api.whatsapp.com/send?phone=5493415894212" target="blank"><span class="icon-whatsapp"></span>(+54) 9 341 589 4212</a></li>
-                <li><a href="https://www.google.com/maps/place/Sta+Fe+1764,+S2000+AUB,+Santa+Fe/@-32.9433365,-60.6469886,17z/data=!3m1!4b1!4m5!3m4!1s0x95b7ab3e65fbc1cf:0x5887b8719b9945ed!8m2!3d-32.9433365!4d-60.6469886" target="_blank"><span class="icon-location"></span> Santa Fe 1764 7º A - Rosario</a></li>
-                <li><a href="mailto:rosendocalvo70@hotmail.com"><span class="icon-envelope"></span>Rosendocalvo70@hotmail.com</a></li>
-            </ul>
-      <p class="text-center text-muted">© Lucía Calvo. Todos los derecho reservados</p>  
-    </footer>
-
-  </body>
-  
 </html>
+
+
+      
+      
+  
+ 
