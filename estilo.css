@@ -2,40 +2,103 @@
     font-style: 'Nunito Sans', sans-serif;
 }
 
-.section-1{
-    background-image: url(./imagenes/Background\ black.jpg);
+header{
+    background-image: url(./imagenes/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg);
     background-repeat: no-repeat;
-    background-attachment:scroll;
-    width: 100%;
-    height: 150vh;
+    background-size: cover;
 }
 
-.section-1 h1{
-    font-size: 60px;
+.a-1{
+    color: #A0B2A6;
+    font-family:'Montserrat', sans-serif;
+}
+
+.navbar-nav a{
     color: white;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+.index-1{
+    background-image: url(./imagenes/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 130vh;
+    background-attachment: scroll;
+}
+
+.index-1 h1{
+    font-size: 50px;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
     position: relative;
-    margin-top: 40%;
-    left: 30px;
+    top: 2em;
+    left: 1rem;
     text-align: right;
 }
 
-.section-1 article{
+.index-1 h4{
+    font-family:'Oxygen', sans-serif;
+    color: #9A7D4E;
+    font-size: 25px;
+    position: relative;
+    top: 4em;
+    left: 1rem;
+    text-align: right;
+}
+
+.index-1 article{
     font-size: 20px;
-    color: white;
     position: relative;
-    text-align: right;
-    margin-top: 30px;
-    left: 20px;
+    top: 22em;
+    text-align: center;
+   
 }
 
-.section-2{
+.parrafo-1{
+    color: white;
+}
+
+.parrafo-2{
+    color: #A0B2A6;
+}
+
+.index-2{
+    background-color: #0E1116;
+    width:1453px;
+    height: 40vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.index-2 h2{
+    font-family: Montserrat;
+    font-size: 30px;
+    color: white;   
+}
+
+.text-muted{
+    color: #9A7D4E;
+}
+
+.index-2 p{
+    font-family:'Oxygen', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 10px 25px;
+
+}
+
+.index-3{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
-    position:relative;
-    bottom: 6vh;
-    height: 400px;
+    text-align: center;
+    text-align: center
 }
 
 .section-2 div{
@@ -52,33 +115,8 @@
    font-size: 25px;
 }
 
-.section-3{
-    display: inline-block;
-    background-color: #9A7D4E;
-}
-.img{
-    position: relative;
-    bottom: 8vh;
-    left: 980px;
-}
 
-.section-3 article{
-    position: relative;
-    top: 20vh;
-}
 
-.section-3 article h2{
-    font-size: 25px;
-}
-
-.section-3 article p{
-    font-size: 15px;
-}
-
-.img-fluid{
- height: 300px;
- width: 300px;
-}
 
 .footer{
     background-color:#252323;
