@@ -8,6 +8,10 @@ header{
     background-size: cover;
 }
 
+.navbar-toggler{
+    color: white;
+}
+
 .a-1{
     color:white;
     font-family:'Montserrat', sans-serif;
@@ -219,7 +223,8 @@ header{
 .sobre-nosotros-section-1{
     background-color: #0E1116;
     width: 100vw;
-    height: 400px;
+    height: 40vh;
+    background-attachment: scroll;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -266,4 +271,128 @@ header{
     color: #A0B2A6;
     font-size: 16px;
     padding: 10px;
+}
+
+.section-1-servicios{
+    background-color:#F5F1ED;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section-1-servicios__container{
+    background-color: #252323;
+    width: 40%;
+    height: 80%;
+    padding: 5px 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    
+}
+
+.section-1-servicios__text{
+    color: #F5F1ED;
+    text-align: justify;
+}
+
+.section-1-servicios__text h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.section-1-servicios__text h4{
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+.section-2-imagen{
+    background-image: url(../imagenes/sean-pollock-PhYq704ffdA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    height: 300px;
+}
+
+.informes{
+padding-top: 130px;
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 30px;
+display: flex;
+justify-content: space-between;
+}
+
+.container-informes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color:#DAD2BC;
+    width: fit-content;
+}
+
+.container-informes a{
+    text-decoration: none;
+    list-style-type: none;
+    color:#252323;
+}
+
+.aside-informes{
+    background-color:#252323;
+    width: 30%;
+    height: 620px;
+    text-align: center;
+    padding: 40px;
+    color: #F5F1ED;
+}
+
+.section-1-contacto{
+    background-color:#F5F1ED;
+    height: 90vh;
+}
+
+.section-1-contacto__title{
+    font-size: 20px;
+    width: 20%;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+
+.section-1-contacto__title h3{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.form{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 210px;
+    left: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.informacion-personal__contacto{
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    right: 8px;
+}
+.casillas{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* padding-bottom: 20px; */
+}
+
+.textarea{
+    position: relative;
+    top:15px;
 }
