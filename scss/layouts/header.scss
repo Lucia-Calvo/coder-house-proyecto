@@ -1,0 +1,32 @@
+header{  
+    position: relative;
+    background-image: url(/imagenes/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .a-1{
+        color:$text-color;
+        font-family:'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight:500;
+        padding-left: 10px;
+        &:hover{
+            color:$secondary-color;
+        }
+    }
+    button{
+        color:$text-color;
+    }
+    .navbar-nav{
+        li{
+            padding: 0px 15px;
+            a{
+                color:$text-color;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 15px;  
+                &:hover{
+                    color:$secondary-color;
+                 }
+            }
+        }
+    }
+}

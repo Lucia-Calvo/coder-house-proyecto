@@ -1,0 +1,132 @@
+.index-1{
+    background-image: url(/imagenes/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height: 130vh;
+    background-attachment: scroll;
+    h1{
+        font-size: 50px;
+        color: $text-color;
+        font-family:'Montserrat', sans-serif;
+        font-weight: bold;
+        position: relative;
+        top: 2em;
+        left: 1rem;
+        text-align: right;
+    }
+    h4{
+        font-family:'Montserrat', sans-serif;
+        font-weight: 600;
+        color: $secondary-color;
+        font-size: 23px;
+        position: relative;
+        top: 4em;
+        left: 1rem;
+        text-align: right;
+    }
+    article{
+        font-size: 20px;
+        position: relative;
+        top: 22em;
+        text-align: center;
+        .parrafo-1{
+            color:$text-color;
+        }
+        .parrafo-2{
+            color: $secondary-color;
+            font-family:'Crimson Text', serif;
+        }
+    }
+}
+
+.index-2{
+    background-color: #0E1116;
+    width:1453px;
+    height: 40vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    h2{
+        font-family: Montserrat;
+        font-size: 30px;
+        color:$text-color;   
+    }
+    .Resultados{
+        color: $tertiary-color;
+    }
+    p{
+        font-family:'Oxygen', sans-serif;
+        font-size: 15px;
+        color: $text-color;
+        padding: 10px 25px;
+    
+    }
+}
+
+.index-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 40vh;
+    div{
+        background-color: #605B57;
+        width: 30%;
+        margin: 10px 5px;
+        h2{
+            font-size: 25px;
+            font-family: Montserrat;
+            color: $secondary-color;
+            padding: 15px 0px 10px 0px;
+        }
+        p{
+            color:$text-color;
+            font-family:'Oxygen', sans-serif;
+            font-size: 15px;
+        }
+    }
+    .btn-1{
+        position: relative;
+        top: 25px;
+    }
+    .btn {
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        &::before,
+        &::after {
+            content: '';
+             position: absolute;
+             width: 100%;
+             left: 0;
+           }
+        &::after {
+            content: attr(data-replace);
+          }
+        &::after {
+            content: attr(data-replace);
+            top: 0;
+            transform-origin: 100% 50%;
+            transform: translate3d(200%, 0, 0);
+          }
+        &:hover::after,
+        &:focus::after {
+            transform: translate3d(0, 0, 0);
+          }
+        &::before {
+            background-color:#A0B2A6;
+            height: 2px;
+            bottom: 0;
+            transform-origin: 100% 50%;
+            transform: scaleX(0);
+          }
+          
+        &:hover::before,
+        &:focus::before {
+            transform-origin: 0% 50%;
+            transform: scaleX(1);
+          }
+      }
+}
